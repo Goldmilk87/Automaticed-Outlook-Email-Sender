@@ -1,10 +1,10 @@
 # Email-Sender
 
 Email-Sender automates the email sending process through Word, HTML as Email content input, Excel as a list of contacts
-including recevier's email address and CC's email address. This email sender script also allow user to select an attachment
+including recevier's email address and CC's email address. The placeholder in Word or HTHL will be replaced by the value in the Excel sheet to generate personalize email. This email sender script also allow user to select an attachment
 file to send with.
 
-The .exe file is in the dist folder, feel free to run it as python or repackage it if feeling unsafe.
+The .exe file is in the dist folder, feel free to run it as Python or repackage it if feeling unsafe.
 
 ## Restriction
 - The script can only run on window operating system.
