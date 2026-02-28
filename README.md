@@ -1,25 +1,27 @@
 # Email-Sender
 
-Email-Sender automate the email sending process through word, html as Email content input, Excel as a list of contact
-including recevier's email address and CC's email address. This email sender script also allow user to select attachment
+Email-Sender automates the email sending process through Word, HTML as Email content input, Excel as a list of contacts
+including recevier's email address and CC's email address. This email sender script also allow user to select an attachment
 file to send with.
+
+The .exe file is in the dist folder, feel free to run it as python or repackage it if feeling unsafe.
 
 ## Restriction
 - The script can only run on window operating system.
-- The file need to be close when using
+- The file needs to be closed when using
 
 ## Instruction
 ### Email Template Format
-Place "{{Column Name}}" as Placeholder, where the script will replace it with the value in Excel Sheet.
+Place "{{Column Name}}" as a placeholder, where the script will replace it with the value in the Excel Sheet.
 
 ### Running
 1. Run the exe
-2. Select the contact list as Excel Sheet
-3. Select word or Html template(HTML template save in word have more detail in the email.)
+2. Select the contact list as an Excel Sheet
+3. Select a word or HTML template(HTML template saves in Word has more details in the email.)
 4. (Optional) Select attachment file
 5. Select the Email Address to send from
-6. (Optional) Enter the condition for sending Email
-7. (Optional) Enter the list of CC Email address that would apply to all email
+6. (Optional) Enter the condition for sending an email
+7. (Optional) Enter the list of CC email addresses that would apply to all email
 8. Enter the Email Subject
 9. Check the information and enter y to send
-10. The draft of the email will show as window of Outlook
+10. The draft of the email will show in the window of Outlook
